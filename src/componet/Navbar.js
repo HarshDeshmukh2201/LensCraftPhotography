@@ -50,10 +50,6 @@ const portfolio =()=>{
   setActive("portfolio")
 }
 
-const testimonials =()=>{
-  setActive("testimonials")
-}
-
 const team =()=>{
   setActive("team")
 }
@@ -67,7 +63,7 @@ const contact =()=>{
   return (
     <nav className="navbar navbar-expand-lg navbar-custom fixed-top">
       <div className="container-fluid">
-        <a className="navbar-brand d-flex align-items-center" href="#">
+        <a className="navbar-brand d-flex align-items-center" href="#home">
           <div className="brand-logo me-2">
             <i className="fas fa-camera text-whitex"></i>
           </div>
