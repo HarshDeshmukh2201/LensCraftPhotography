@@ -69,7 +69,7 @@ function About() {
 
    <div className='col-sm-12 col-md-6 m-auto'>
    
-     <img  src={ require('../img/s3.jpg')} className='img-fluid img-thumbnail '></img>
+     <img   src={ require('../img/s3.jpg')}  alt="About us" className='img-fluid img-thumbnail '></img>
 
    </div>
    </div>
